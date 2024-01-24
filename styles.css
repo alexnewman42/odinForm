@@ -1,20 +1,33 @@
+@font-face {
+    font-family: Norde-Bold;
+    src: url(/fonts/Norse-Bold.otf);
+}
+
 * {
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
     /*border: red solid 2px;*/
 }
 
-body {
-    display: flex;
-    flex-wrap: wrap;
+h1 {
+    font-family: Norse-Bold, sans-serif;
 }
 
-.banner {
-    color: white;
-    width: 300px;
-    height: 100vhw;
-    background-image: url("./images/GreenLeaf.avif");
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-image: url(./images/GreenLeaf.avif);
+    width: 35vw;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto;
+} 
+
+.right {
+    display: flex;
+    justify-content: center;
 }
