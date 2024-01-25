@@ -21,13 +21,27 @@ h1 {
 }
 
 .left {
-    background-image: url(./images/GreenLeaf.avif);
+    background-image: url(./images/GreenLeafSmall.jpg);
     width: 35vw;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+    color: white;
+    font-family: Norse-Bold, sans-serif;
 } 
 
 .right {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+
+.first {
+    height: 33vh;
+}
+
+.second {
+    height: 33vh;
+}
+
+.third {
+    height: 33vh;
 }
