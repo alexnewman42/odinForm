@@ -6,12 +6,10 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: Norse-Bold, sans-serif;
     /*border: red solid 2px;*/
 }
 
-h1, h2, p {
-    font-family: Norse-Bold, sans-serif;
-}
 
 .main {
     display: flex;
@@ -26,7 +24,7 @@ h1, h2, p {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    font-family: Norse-Bold, sans-serif;
+
 } 
 
 .right {
@@ -47,10 +45,21 @@ h1, h2, p {
 .second {
     height: 33vh;
     background-color: white;
-    padding-left: 60px;
+    padding: 20px 0 20px 60px;
 }
 
 .third {
     height: 33vh;
     padding-left: 60px;
+}
+
+.form-main-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px 20px 0px;
 }
