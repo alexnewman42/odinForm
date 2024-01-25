@@ -9,7 +9,7 @@
     /*border: red solid 2px;*/
 }
 
-h1 {
+h1, h2, p {
     font-family: Norse-Bold, sans-serif;
 }
 
@@ -32,16 +32,25 @@ h1 {
 .right {
     display: flex;
     flex-direction: column;
+    background-color: #fafafa;
+    width: 65vw;
 }
 
 .first {
     height: 33vh;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 60px;
+    padding-bottom: 80px;
 }
 
 .second {
     height: 33vh;
+    background-color: white;
+    padding-left: 60px;
 }
 
 .third {
     height: 33vh;
+    padding-left: 60px;
 }
