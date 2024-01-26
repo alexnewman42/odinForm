@@ -75,6 +75,10 @@ input:focus {
     border: 1px solid blue;
 }
 
+input:invalid {
+    border: 1px solid red;
+}
+
 label {
     font-size: 12px;
 }
